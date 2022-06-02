@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(41, 50, 65);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+body {
+  display: block;
+  margin: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
+  color: #0d0d23;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 250px;
+}
+
+/* unvisited link */
+.fa {
+  color: lightblue;
+}
+
+a:link {
+  color: rgb(29, 22, 240);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 38, 128);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(105, 255, 243);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+}
+
+.card-white {
+  background-color: rgb(254, 254, 247, 0.6);
+  margin: 32px auto;
+  text-align: center;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgb(65 74 80 / 50%);
+}
+
+.list-inline {
+  padding: 0;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 24px;
+}
+
+.list-inline a {
+  font-size: 32px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+a {
+  color: #b1d3c4;
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
